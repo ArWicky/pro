@@ -5,7 +5,7 @@ try:
 	from user_agent import generate_user_agent
 	from uuid import uuid4
 except:
-	os.system("pip install requsets")
+	os.system("pip install requests")
 	os.system("pip install mechanize")
 	os.system("pip install names")
 	os.system("pip install user_agent")
@@ -244,4 +244,3 @@ def users():
       yahoo(email,user)
   except IndexError:
    users()
-users()
